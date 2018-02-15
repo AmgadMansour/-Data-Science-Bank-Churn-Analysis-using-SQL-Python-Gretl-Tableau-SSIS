@@ -1,0 +1,12 @@
+1- When removing Tenure (amount of years the customer has been with the bank) from the regressors, the adjusted R squared value decreased but only with a very low value. The fact that it is not a signifcant factor means that the bank might have problems in developing customers loyality because the longer the customer should with the bank, the less likely for him to leave .
+
+2- When removing the estimeated salary regressor given, there is no effect on the likelhood of leaving the bank. This means that the value could be calcuated incorrectly. So the bank should investigate it further and review the algorithm with which it was calcuated.
+
+3- If three people from France, Germany and Spain have all other attributes in common, then the person from spain and france have same likelhood to leave the bank while person who lives in Germany have high likehood. Perhaps there is a competitior in germany or the German departments or customer service are not perofrming good.
+[This is because the regressors coeffients are very low and similar for France and Spain while it is very high for Germany]
+
+4- Whether the person has credit card or not doesnt affect the likelhood of leaving bank.
+[ This is because the creditcard flag regressor is not signifcant]
+
+
+

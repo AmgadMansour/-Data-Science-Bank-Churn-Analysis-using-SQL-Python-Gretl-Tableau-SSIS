@@ -1,0 +1,32 @@
+Model 3: Logit, using observations 1-10000
+Dependent variable: Exited
+Standard errors based on Hessian
+
+                   coefficient   std. error      z      p-value 
+  --------------------------------------------------------------
+  const            -3.94435      0.240579     -16.40   2.07e-060 ***
+  CreditScore      -0.000664033  0.000280270   -2.369  0.0178    **
+  Age               0.0727303    0.00257516    28.24   1.73e-175 ***
+  Tenure           -0.0161505    0.00935127    -1.727  0.0842    *
+  Balance           2.64543e-06  5.14070e-07    5.146  2.66e-07  ***
+  NumOfProducts    -0.101333     0.0471228     -2.150  0.0315    **
+  IsActiveMember   -1.07438      0.0576668    -18.63   1.81e-077 ***
+  EstimatedSalary   4.81783e-07  4.73661e-07    1.017  0.3091   
+  Germany           0.761879     0.0633445     12.03   2.55e-033 ***
+  Female            0.528489     0.0544853      9.700  3.02e-022 ***
+
+Mean dependent var   0.203700   S.D. dependent var   0.402769
+McFadden R-squared   0.153080   Adjusted R-squared   0.151102
+Log-likelihood      -4281.088   Akaike criterion     8582.175
+Schwarz criterion    8654.279   Hannan-Quinn         8606.582
+
+Number of cases 'correctly predicted' = 8111 (81.1%)
+f(beta'x) at mean of independent vars = 0.135
+Likelihood ratio test: Chi-square(9) = 1547.61 [0.0000]
+
+           Predicted
+               0      1
+  Actual 0  7673    290
+         1  1599    438
+
+Excluding the constant, p-value was highest for variable 13 (EstimatedSalary)

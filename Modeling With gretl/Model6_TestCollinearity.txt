@@ -1,0 +1,17 @@
+Variance Inflation Factors
+
+Minimum possible value = 1.0
+Values > 10.0 may indicate a collinearity problem
+
+    CreditScore    1.001
+            Age    1.450
+  NumOfProducts    1.152
+ IsActiveMember    1.011
+        Germany    1.271
+         Female    1.003
+         Tenure    1.001
+    log_Balance    5.860
+     WealthRate    5.722
+
+VIF(j) = 1/(1 - R(j)^2), where R(j) is the multiple correlation coefficient
+between variable j and the other independent variables

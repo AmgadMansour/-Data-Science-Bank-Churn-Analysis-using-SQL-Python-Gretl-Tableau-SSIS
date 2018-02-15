@@ -1,0 +1,32 @@
+Model 9: Logit, using observations 1-10000
+Dependent variable: Exited
+Standard errors based on Hessian
+
+                   coefficient    std. error       z       p-value 
+  -----------------------------------------------------------------
+  const            -3.82758       0.248202      -15.42    1.18e-053 ***
+  CreditScore      -0.000675560   0.000280329    -2.410   0.0160    **
+  Age               0.0706681     0.00309455     22.84    2.00e-115 ***
+  NumOfProducts    -0.0955301     0.0475596      -2.009   0.0446    **
+  IsActiveMember   -1.07339       0.0576722     -18.61    2.57e-077 ***
+  Germany           0.746337      0.0651330      11.46    2.13e-030 ***
+  Female            0.525712      0.0544733       9.651   4.88e-022 ***
+  Tenure           -0.0159252     0.00934677     -1.704   0.0884    *
+  log_Balance       0.0950938     0.0266187       3.572   0.0004    ***
+  WealthRate       -4.33552e-05   3.77862e-05    -1.147   0.2512   
+
+Mean dependent var   0.203700   S.D. dependent var   0.402769
+McFadden R-squared   0.152918   Adjusted R-squared   0.150940
+Log-likelihood      -4281.908   Akaike criterion     8583.815
+Schwarz criterion    8655.919   Hannan-Quinn         8608.222
+
+Number of cases 'correctly predicted' = 8123 (81.2%)
+f(beta'x) at mean of independent vars = 0.135
+Likelihood ratio test: Chi-square(9) = 1545.97 [0.0000]
+
+           Predicted
+               0      1
+  Actual 0  7684    279
+         1  1598    439
+
+Excluding the constant, p-value was highest for variable 21 (WealthRate)
